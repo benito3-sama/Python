@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    color: brown;
+    font-size: 14pt;
+}
+h1{
+    background-color: red;
+}
+.parrafo{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.img-logo{
+    width: 100px;
+}

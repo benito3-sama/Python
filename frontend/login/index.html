@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+ <head>
+    <title>Formulario</title>
+    <meta charset ="UTF-8"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+ </head>
+ <body>
+    <h1 class="titulo">Formulario de acceso</h1>
+    <p class="parrafo">Para acceder al sitio debera proveer
+      un usuario y una contraseña valida.
+    </p>
+      <img src="images/candado.png" class="img-logo">
+      <form class="form" method="POST" action="procesar">
+        <input type="text" name="user" placeholder="Usuario"/>
+        <input type="password" name="pass" placeholder="Contraseña"/>
+        <button class="btn btn-primary" onclick="submit">Acceder</button>
+      </form>
+ </body>    
+</html>
